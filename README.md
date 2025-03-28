@@ -1,6 +1,8 @@
 # Practical.cpp
 
 # Practical 01
+
+**write a program to compute the sum of the first n terms of the following series: ? = 1 − 1/ 2^2 + 1 /3^3....+1/n^n, the number of terms n is to be taken from the user through the command line. if the command line argument is not found then prompt the user to enter the value of n.***
 ```
 #include <iostream>
 #include <cstdlib> // For atoi
@@ -53,7 +55,13 @@ int main(int argc, char* argv[]) {
 
 ![Screenshot (76)](https://github.com/user-attachments/assets/7632d12f-c306-4d6f-be47-854c76169492)
 
+
+
+
+
+
 # PRACTICAL-02
+**write a program to remove the duplicates from an array**
 ```
 
 #include <iostream>
@@ -117,7 +125,14 @@ int main() {
 ![Screenshot (52)](https://github.com/user-attachments/assets/cce4f3e0-fe01-4b19-aff6-6ce283f17310)
 
 
+
+
+
+
+
 # PRACTICAL-03
+**Write a program that prints a table indicating the number of occurrences of each alphabet 
+in the text entered as command line arguments**
 ```
 #include <iostream>
 #include <cctype>
@@ -167,7 +182,22 @@ int main() {
 
 ![Screenshot (54)](https://github.com/user-attachments/assets/c23c1251-1ef7-4f11-9c89-99fe37606738)
 
+
+
+
+
+
 # PRACTICAL-04
+
+**Write a menu driven program to perform string manipulation (without using inbuilt string 
+functions):**
+a. Show address of each character in string
+b. Concatenate two strings.
+c. Compare two strings
+d. Calculate length of the string (use pointers)
+e. Convert all lowercase characters to uppercase
+f. Reverse the string
+g. Insert a string in another string at a user specified position
 ```
 #include <iostream>
 #include <cstring>
@@ -356,8 +386,13 @@ int main() {
 ![Screenshot (58)](https://github.com/user-attachments/assets/d251396d-2732-487b-9382-943717fb477e)
 
 
+
+
+
+
+
 # PRACTICAL-05
-**b. with recursion**
+**Write a program to merge two ordered arrays to get a single ordered array.**
 ```
 #include <iostream>
 #include <vector> // Include vector for dynamic array allocation
@@ -436,7 +471,15 @@ int main() {
 
 ![Screenshot (59)](https://github.com/user-attachments/assets/e98612b7-9892-4b09-b965-b382c8638ebc)
 
-**a. without recursion**
+
+
+
+
+
+
+
+# Practical -06
+**a. with recursion**
 ```
 #include <iostream>
 #include <vector> // Include vector for dynamic array allocation
@@ -497,7 +540,7 @@ int main() {
 
 
 
-# PRACTICAL-06
+**b.without recursion**
 ```
 #include <iostream>
 #include <vector> // Include vector for dynamic array allocation
@@ -559,7 +602,13 @@ int main() {
 ![Screenshot (62)](https://github.com/user-attachments/assets/7cacf63b-5b49-4fca-b10e-fe0005a4ec90)
 
 
+
+
+
+
+
 # PRACTICAL-07
+**Write a program to calculate GCD of two numbers**
 **a. with recursion**
 
 ```
@@ -601,6 +650,7 @@ int main() {
 ```
 
 ![Screenshot (64)](https://github.com/user-attachments/assets/2b703693-a21c-478d-96bc-e7fbb4abc50e)
+
 
 
 **b. without recursion**
@@ -647,7 +697,24 @@ int main() {
 ![Screenshot (65)](https://github.com/user-attachments/assets/429f6935-2874-4241-ad61-e0d700a6c5c3)
 
 
+
+
+
+
+
+
 # PRACTICAL-08
+
+**8. Create a Matrix class. Write a menu-driven program to perform following Matrix 
+operations (exceptions should be thrown by the functions if matrices passed to them are 
+incompatible and handled by the main() function):**
+
+a. Sum
+
+b. Product
+
+c. Transpose
+
 ```
 #include <iostream>
 #include <vector>
@@ -813,7 +880,18 @@ int main() {
 ![Screenshot (68)](https://github.com/user-attachments/assets/bea898c8-a886-4f5f-b2f4-9388bca251b7)
 
 
+
+
+
+
+
 # PRACTICAL-09
+
+**Define a class Person having name as a data member. Inherit two classes Student and 
+Employee from Person. Student has additional attributes as course, marks and year and 
+Employee has department and salary. Write display() method in all the three classes to
+display the corresponding attributes. Provide the necessary methods to show runtime 
+polymorphism.**
 ```
 #include <iostream>
 #include <string>
@@ -890,7 +968,15 @@ int main() {
 
 
 
+
+
+
 # PRACTICAL-10
+**Create a Triangle class. Add exception handling statements to ensure the following 
+conditions: all sides are greater than 0 and sum of any two sides is greater than the third 
+side. The class should also have overloaded functions for calculating the area of a right 
+angled triangle as well as using Heron's formula to calculate the area of any type of 
+triangle.**
 ```
 #include <iostream>
 #include <cmath>
@@ -985,7 +1071,15 @@ int main() {
 ![Screenshot (70)](https://github.com/user-attachments/assets/c377a3c4-73cb-4790-8c7e-350a9eaebce7)
 
 
+
+
+
+
 # PRACTICAL-11
+
+**Create a class Student containing fields for Roll No., Name, Class, Year and Total Marks. 
+Write a program to store 5 objects of Student class in a file. Retrieve these records from 
+the file and display them.**
 ```
 
 #include <iostream>
@@ -1090,7 +1184,13 @@ int main() {
 
 
 
+
+
+
 # PRACTICAL-12
+
+**Copy the contents of one text file to another file, after removing all whitespaces.**
+
 ```
 #include <iostream>
 #include <fstream>
@@ -1140,7 +1240,11 @@ int main() {
 
 ![Screenshot (74)](https://github.com/user-attachments/assets/11a6b62b-27c1-4d3b-86aa-c4bf01901c19)
 
+
+
+
 # PRACTICAL-13
+**Write a program to read two numbers p and q. If q is 0 then throw an exception else display the result of p/q**
 ```
 #include <iostream>
 #include <stdexcept>
