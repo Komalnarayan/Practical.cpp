@@ -1,6 +1,6 @@
 # Practical.cpp
 
-**practical__1**
+# Practical 01
 ```
 #include <iostream>
 #include <cstdlib> // For atoi
@@ -50,9 +50,11 @@ int main(int argc, char* argv[]) {
 }
 
 ```
+
 ![Screenshot (76)](https://github.com/user-attachments/assets/7632d12f-c306-4d6f-be47-854c76169492)
 
-'''
+# PRACTICAL-02
+```
 
 #include <iostream>
 #include <unordered_set>
@@ -110,13 +112,13 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 ![Screenshot (52)](https://github.com/user-attachments/assets/cce4f3e0-fe01-4b19-aff6-6ce283f17310)
 
 
-
-'''
+# PRACTICAL-03
+```
 #include <iostream>
 #include <cctype>
 #include <string>
@@ -161,12 +163,12 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 ![Screenshot (54)](https://github.com/user-attachments/assets/c23c1251-1ef7-4f11-9c89-99fe37606738)
 
-
-'''
+# PRACTICAL-04
+```
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -341,7 +343,7 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 ![Screenshot (55)](https://github.com/user-attachments/assets/cf418726-18ae-4dc3-bf0c-201c317c3cda)
 
@@ -353,7 +355,10 @@ int main() {
 
 ![Screenshot (58)](https://github.com/user-attachments/assets/d251396d-2732-487b-9382-943717fb477e)
 
-'''
+
+# PRACTICAL-05
+**b. with recursion**
+```
 #include <iostream>
 #include <vector> // Include vector for dynamic array allocation
 using namespace std;
@@ -425,14 +430,14 @@ int main() {
     printArray(merged); // Print the merged array
     return 0;
 }
-'''
+```
 
 
 
 ![Screenshot (59)](https://github.com/user-attachments/assets/e98612b7-9892-4b09-b965-b382c8638ebc)
 
-
-'''
+**a. without recursion**
+```
 #include <iostream>
 #include <vector> // Include vector for dynamic array allocation
 using namespace std;
@@ -486,11 +491,14 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 ![Screenshot (60)](https://github.com/user-attachments/assets/7f92b327-632f-433b-b2c5-3200422d9098)
 
-'''
+
+
+# PRACTICAL-06
+```
 #include <iostream>
 #include <vector> // Include vector for dynamic array allocation
 using namespace std;
@@ -545,14 +553,16 @@ int main() {
 
     return 0;
 }
-
-'''
+```
 
 
 ![Screenshot (62)](https://github.com/user-attachments/assets/7cacf63b-5b49-4fca-b10e-fe0005a4ec90)
 
 
-'''
+# PRACTICAL-07
+**a. with recursion**
+
+```
 #include <iostream>
 #include <cstdlib> // For std::abs
 using namespace std;
@@ -588,11 +598,13 @@ int main() {
 
     return 0;
 }
-'''
+```
 
 ![Screenshot (64)](https://github.com/user-attachments/assets/2b703693-a21c-478d-96bc-e7fbb4abc50e)
 
-'''
+
+**b. without recursion**
+```
 #include <iostream>
 #include <cstdlib> // For std::abs
 using namespace std;
@@ -629,13 +641,14 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 
 ![Screenshot (65)](https://github.com/user-attachments/assets/429f6935-2874-4241-ad61-e0d700a6c5c3)
 
 
-'''
+# PRACTICAL-08
+```
 #include <iostream>
 #include <vector>
 #include <stdexcept>
@@ -792,15 +805,16 @@ int main() {
     }
     return 0;
 }
-'''
+```
 
 
 ![Screenshot (67)](https://github.com/user-attachments/assets/7ffa0b1e-0a71-4f2c-9688-d228872c3769)
 
-
 ![Screenshot (68)](https://github.com/user-attachments/assets/bea898c8-a886-4f5f-b2f4-9388bca251b7)
 
-'''
+
+# PRACTICAL-09
+```
 #include <iostream>
 #include <string>
 #include <memory> // For smart pointers
@@ -870,11 +884,14 @@ int main() {
     // No need to manually delete, smart pointers handle it
     return 0;
 }
-'''
+```
 
 ![Screenshot (69)](https://github.com/user-attachments/assets/ae18b2cb-0439-4bca-9595-a764001b1d04)
 
-'''
+
+
+# PRACTICAL-10
+```
 #include <iostream>
 #include <cmath>
 #include <stdexcept>
@@ -962,14 +979,14 @@ int main() {
     }
     return 0;
 }
-'''
+```
 
 
 ![Screenshot (70)](https://github.com/user-attachments/assets/c377a3c4-73cb-4790-8c7e-350a9eaebce7)
 
 
-
-'''
+# PRACTICAL-11
+```
 
 #include <iostream>
 #include <fstream>
@@ -1065,13 +1082,16 @@ int main() {
     inFile.close();
     return 0;
 }
-'''
+```
 
 
 
 ![Screenshot (71)](https://github.com/user-attachments/assets/f7bf36d8-09b9-4ecb-ac85-bf74fa9b0feb)
 
-'''
+
+
+# PRACTICAL-12
+```
 #include <iostream>
 #include <fstream>
 #include <cctype>  
@@ -1113,15 +1133,15 @@ int main() {
     return 0; // Exit successfully
 }
 
-'''
+```
 
 ![Screenshot (73)](https://github.com/user-attachments/assets/87cc30ee-36ed-4c2e-a46c-33dc189ca8e3)
 
 
 ![Screenshot (74)](https://github.com/user-attachments/assets/11a6b62b-27c1-4d3b-86aa-c4bf01901c19)
 
-
-'''
+# PRACTICAL-13
+```
 #include <iostream>
 #include <stdexcept>
 #include <limits> // Include this header for numeric_limits
@@ -1162,7 +1182,7 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 
 
